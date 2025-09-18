@@ -24,3 +24,23 @@ Answer: Data science can be applied to virtually any field that generates or use
   - Real-time monitoring of patient vital signs to detect anomalies
 
 **Impact**: This application can improve patient outcomes, reduce healthcare costs, and enable more personalized medicine by leveraging vast amounts of medical data to make data-driven decisions about patient care.
+
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: Merging and rebasing are two different approaches to integrating changes from one branch into another:
+
+**Merging**:
+- Creates a new "merge commit" that combines the histories of both branches
+- Preserves the complete history of both branches
+- Results in a non-linear history with merge commits
+- Safe for shared/public branches as it doesn't rewrite history
+- Shows when branches were integrated
+
+**Rebasing**:
+- Replays commits from one branch onto another as if they were made directly on the target branch
+- Creates a linear, clean history
+- Rewrites commit history (changes commit hashes)
+- Should not be used on shared/public branches as it can cause issues for other developers
+- Makes the project history look like it was developed in a straight line
+
+**Key Difference**: Merging preserves the branching structure and creates merge commits, while rebasing creates a linear history by replaying commits. Merging is safer for collaborative work, while rebasing creates cleaner history but can be dangerous on shared branches.
