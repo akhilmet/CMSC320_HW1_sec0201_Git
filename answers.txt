@@ -44,3 +44,21 @@ Answer: Merging and rebasing are two different approaches to integrating changes
 - Makes the project history look like it was developed in a straight line
 
 **Key Difference**: Merging preserves the branching structure and creates merge commits, while rebasing creates a linear history by replaying commits. Merging is safer for collaborative work, while rebasing creates cleaner history but can be dangerous on shared branches.
+
+Q4: What are you looking forward to this semester?
+
+Answer: I'm looking forward to several exciting aspects of this semester:
+
+1. **Learning Data Science Fundamentals**: Gaining a solid foundation in data analysis, statistics, and machine learning techniques that are essential for modern data-driven decision making.
+
+2. **Hands-on Projects**: Working on real-world data science projects that will help me understand how to apply theoretical concepts to solve actual problems.
+
+3. **Git and Version Control Mastery**: Developing strong skills in Git and GitHub, which are crucial tools for collaborative software development and data science workflows.
+
+4. **Programming Skills**: Improving my programming abilities, particularly in Python and R, which are fundamental languages for data science.
+
+5. **Statistical Analysis**: Deepening my understanding of statistical methods and their applications in data analysis and interpretation.
+
+6. **Career Preparation**: Building a portfolio of projects and skills that will be valuable for future internships and career opportunities in data science and related fields.
+
+7. **Collaborative Learning**: Working with classmates on projects and learning from different perspectives and approaches to problem-solving.
