@@ -1,64 +1,15 @@
 Q1: Why might we consider using Git?
 
-Answer: Git is a powerful version control system that offers several key benefits:
-1. **Version Control**: Track changes to files over time, allowing you to see what changed, when, and by whom
-2. **Collaboration**: Multiple developers can work on the same project simultaneously without conflicts
-3. **Backup and Recovery**: Complete history of all changes, making it easy to revert to previous versions
-4. **Branching and Merging**: Create separate branches for features or experiments without affecting the main codebase
-5. **Distributed Development**: Each developer has a complete copy of the repository, enabling offline work
-6. **Integration**: Works seamlessly with platforms like GitHub for code sharing and collaboration
-7. **Non-linear Development**: Support for complex workflows with multiple parallel development streams
+Answer: Git helps track changes to files, allows multiple people to work together, and keeps a history of all changes so you can go back to previous versions if needed.
 
 Q2: What field could data science be applied to? Give an Example.
 
-Answer: Data science can be applied to virtually any field that generates or uses data. One excellent example is **Healthcare and Medicine**:
-
-**Application**: Predictive analytics for patient care
-- **Data Sources**: Electronic health records, medical imaging, wearable devices, lab results, patient demographics
-- **Techniques**: Machine learning, deep learning, statistical analysis
-- **Examples**: 
-  - Predicting patient readmission risk within 30 days
-  - Early detection of diseases through medical imaging analysis
-  - Personalized treatment recommendations based on patient history
-  - Drug discovery and development through molecular data analysis
-  - Real-time monitoring of patient vital signs to detect anomalies
-
-**Impact**: This application can improve patient outcomes, reduce healthcare costs, and enable more personalized medicine by leveraging vast amounts of medical data to make data-driven decisions about patient care.
+Answer: Data science can be applied to healthcare. For example, hospitals can use patient data to predict which patients might need to be readmitted, helping doctors provide better care.
 
 Q3: What is the difference between Merging and Rebasing?
 
-Answer: Merging and rebasing are two different approaches to integrating changes from one branch into another:
-
-**Merging**:
-- Creates a new "merge commit" that combines the histories of both branches
-- Preserves the complete history of both branches
-- Results in a non-linear history with merge commits
-- Safe for shared/public branches as it doesn't rewrite history
-- Shows when branches were integrated
-
-**Rebasing**:
-- Replays commits from one branch onto another as if they were made directly on the target branch
-- Creates a linear, clean history
-- Rewrites commit history (changes commit hashes)
-- Should not be used on shared/public branches as it can cause issues for other developers
-- Makes the project history look like it was developed in a straight line
-
-**Key Difference**: Merging preserves the branching structure and creates merge commits, while rebasing creates a linear history by replaying commits. Merging is safer for collaborative work, while rebasing creates cleaner history but can be dangerous on shared branches.
+Answer: Merging combines two branches and keeps the history of both branches. Rebasing puts commits from one branch onto another branch as if they were made directly on that branch, creating a cleaner linear history.
 
 Q4: What are you looking forward to this semester?
 
-Answer: I'm looking forward to several exciting aspects of this semester:
-
-1. **Learning Data Science Fundamentals**: Gaining a solid foundation in data analysis, statistics, and machine learning techniques that are essential for modern data-driven decision making.
-
-2. **Hands-on Projects**: Working on real-world data science projects that will help me understand how to apply theoretical concepts to solve actual problems.
-
-3. **Git and Version Control Mastery**: Developing strong skills in Git and GitHub, which are crucial tools for collaborative software development and data science workflows.
-
-4. **Programming Skills**: Improving my programming abilities, particularly in Python and R, which are fundamental languages for data science.
-
-5. **Statistical Analysis**: Deepening my understanding of statistical methods and their applications in data analysis and interpretation.
-
-6. **Career Preparation**: Building a portfolio of projects and skills that will be valuable for future internships and career opportunities in data science and related fields.
-
-7. **Collaborative Learning**: Working with classmates on projects and learning from different perspectives and approaches to problem-solving.
+Answer: I'm looking forward to learning data science skills, working on hands-on projects, and building a portfolio for my future career.
